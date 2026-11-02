@@ -1,0 +1,21 @@
+{
+  "dataset": "amazon_reviews_2023",
+  "demand_categories": [
+    "All_Beauty",
+    "Video_Games",
+    "Musical_Instruments",
+    "Software",
+    "Industrial_and_Scientific",
+    "Appliances",
+    "Amazon_Fashion",
+    "Baby_Products",
+    "Handmade_Products",
+    "Health_and_Personal_Care"
+  ],
+  "d": 33,
+  "pca_dim": 32,
+  "packet_rows": 40,
+  "n_sample_per_category": 20000,
+  "seed": 20261017,
+  "primary_encoder": "bge-base-en-v1.5"
+}

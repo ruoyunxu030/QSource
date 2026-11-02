@@ -1,0 +1,7 @@
+{
+  "d": 33,
+  "sigma2": 0.46724117579247426,
+  "ridge_lambda": 0.1,
+  "encoder": "bge-base-en-v1.5",
+  "packet_rows": 40
+}

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qsource"
+version = "0.1.0"
+description = "Source-aware maintenance of shared quality evidence in data markets"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Ruoyun Xu" },
+  { name = "Tianze Zhu" },
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "pandas>=2.0",
+  "scikit-learn>=1.3",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+data = [
+  "sentence-transformers>=2.2",
+  "huggingface-hub>=0.20",
+  "requests>=2.31",
+  "pillow>=10.0",
+]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["qsource*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

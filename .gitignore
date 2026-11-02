@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+data/**/*.npz
+data/amazon/raw/
+data/domainnet/raw/
+results/
+figures/
+*.pdf
+.DS_Store

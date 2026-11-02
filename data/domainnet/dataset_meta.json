@@ -1,0 +1,7 @@
+{
+  "d": 33,
+  "sigma2": 0.016911020910046672,
+  "ridge_lambda": 100.0,
+  "encoder": "clip-vit-l14",
+  "packet_rows": 40
+}
